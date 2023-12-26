@@ -149,6 +149,7 @@ function SideDrawer() {
           <Menu>
             <MenuButton p={1}>
               <NotificationBadge
+              color="black"
                 count={notification.length}
                 effect={Effect.SCALE}
               />

@@ -81,7 +81,7 @@ const MyChats = ({ fetchAgain }) => {
         d="flex"
         flexDir="column"
         p={3}
-        bg="whiteAlpha.700"
+        bg="blackAlpha.500"
         w="100%"
         h="100%"
         borderRadius="lg"

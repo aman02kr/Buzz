@@ -203,7 +203,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
             color="black"
             justifyContent="flex-end"
             p={3}
-            bg="whiteAlpha.700"
+            bg="blackAlpha.500"
             w="100%"
             h="100%"
             borderRadius="lg"
@@ -235,7 +235,8 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
                     options={defaultOptions}
                     // height={50}
                     width={70}
-                    style={{ marginBottom: 15, marginLeft: 0 }}
+                    
+                    style={{ marginBottom: 15, marginLeft: 0}}
                   />
                 </div>
               ) : (
@@ -247,6 +248,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
                 placeholder="Enter a message.."
                 value={newMessage}
                 onChange={typingHandler}
+                color="white"
               />
             </FormControl>
           </Box>

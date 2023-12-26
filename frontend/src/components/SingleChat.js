@@ -175,7 +175,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
           >
             <IconButton
               d={{ base: "flex", md: "none" }}
-              icon={<ArrowBackIcon />}
+              icon={<ArrowBackIcon color="black"/>}
               onClick={() => setSelectedChat("")}
             />
             {messages &&

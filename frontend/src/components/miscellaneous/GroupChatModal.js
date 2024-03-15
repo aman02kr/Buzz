@@ -147,6 +147,8 @@ const GroupChatModal = ({ children }) => {
                 placeholder="Chat Name"
                 mb={3}
                 onChange={(e) => setGroupChatName(e.target.value)}
+                style={{ color: 'black' }} // Change 'blue' to the color you desire
+
               />
             </FormControl>
             <FormControl>
